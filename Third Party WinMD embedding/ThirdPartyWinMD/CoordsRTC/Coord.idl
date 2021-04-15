@@ -1,0 +1,12 @@
+namespace CoordsRTC
+{
+    runtimeclass Coord 
+    {
+        Coord();
+        Coord(Double x, Double y);
+        Double X;
+        Double Y;
+        Double Distance(Coord c);
+        String ToString();
+    }
+}
