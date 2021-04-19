@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Today: The library uses an OS specific version TFM to get access to WinRT APIs -->
+    <TargetFramework>net5.0-windows10.0.19041.0</TargetFramework>
+    <!-- After embedded: can target net5.0-windows and embed the Windows SDK types -->
+    <!--<TargetFramework>net5.0-windows</TargetFramework>-->
+  </PropertyGroup>
+
+</Project>

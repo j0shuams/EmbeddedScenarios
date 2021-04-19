@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <!-- Today: The app must target net5.0-windows10.0.19041.0 to use the library -->
+    <TargetFrameworks>net5.0-windows10.0.19041.0</TargetFrameworks>
+    <!-- After embedded: the app can target net5.0-windows, to use NET5Library built with embedded. -->
+    <!--<TargetFramework>net5.0-windows</TargetFramework>-->
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NET5Library\NET5Library\NET5Library.csproj" />
+   </ItemGroup>
+
+</Project>
