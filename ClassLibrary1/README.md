@@ -1,0 +1,1 @@
+﻿This example, Embedded Scope, shows how an internal ComWrappers would work. The ComWrappersSupport helpers sources are a minimal example of the sources of winrt.runtime being used but not from the .dll 
